@@ -16,9 +16,8 @@ class Euphoria < Formula
   end
 
   def install
-    folder = "euphoria-2026.11.0-aarch64-apple-darwin"
-    bin.install folder + "/bin/euphoria"
-    lib.install folder + "/lib/*.dylib"
+    bin.install "bin/euphoria"
+    lib.install Dir["lib/*.dylib"]
   end
 
   test do
