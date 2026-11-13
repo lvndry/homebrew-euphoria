@@ -15,3 +15,4 @@ brew install --cask lvndry/euphoria/euphoria
 ```
 
 This repository is updated by the Euphoria Release workflow after each release. The files are generated; do not edit them by hand.
+
