@@ -2,8 +2,8 @@
 class Euphoria < Formula
   desc "Key, BPM and energy detection for DJs, to mix in key"
   homepage "https://github.com/lvndry/euphoria"
-  url "https://github.com/lvndry/euphoria/releases/download/v2026.11.0/euphoria-2026.11.0-aarch64-apple-darwin.tar.gz"
-  sha256 "2d901524828181d4248505ee2759f9af13daccf6f22526f0b41b502119932062"
+  url "https://github.com/lvndry/euphoria/releases/download/v2026.11.1/euphoria-2026.11.1-aarch64-apple-darwin.tar.gz"
+  sha256 "ad2dcde148acfda3cab795b3e34173c4b46af3a79a2f2e8ac7856daaabd483fb"
   license "GPL-3.0-or-later"
 
   livecheck do
