@@ -7,7 +7,7 @@ cask "euphoria" do
   sha256 "81264e5ef0baed830272973470d4fb7e767c61fd3a9ebe20b561d43d8aa45979"
   url "https://github.com/lvndry/euphoria/releases/download/v#{version}/Euphoria-#{version}.dmg"
 
-  depends_on macos: :ventura
+  depends_on macos: :sequoia
 
   app "Euphoria.app"
 end
