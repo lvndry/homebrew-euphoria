@@ -3,8 +3,8 @@ cask "euphoria" do
   name "Euphoria"
   homepage "https://github.com/lvndry/euphoria"
   desc "Key, BPM and energy detection for DJs, to mix in key"
-  version "2026.11.4"
-  sha256 "933b731d8419765a7011716b2d1093150b32eed4bd27b59199a13b32024267b1"
+  version "2026.11.5"
+  sha256 "895ac5fe09eb65630b2bce767b672906efdedd5944d28864d6bdf1be666988ae"
   url "https://github.com/lvndry/euphoria/releases/download/v#{version}/Euphoria-#{version}.dmg"
 
   depends_on macos: :sequoia
