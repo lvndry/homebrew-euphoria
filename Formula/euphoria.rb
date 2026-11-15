@@ -2,8 +2,8 @@
 class Euphoria < Formula
   desc "Key, BPM and energy detection for DJs, to mix in key"
   homepage "https://github.com/lvndry/euphoria"
-  url "https://github.com/lvndry/euphoria/releases/download/v2026.11.3/euphoria-2026.11.3-aarch64-apple-darwin.tar.gz"
-  sha256 "69ad4f2e5be31993109a160f4676b8fe6d128557b2a08f761aca02a159ec4bd0"
+  url "https://github.com/lvndry/euphoria/releases/download/v2026.11.4/euphoria-2026.11.4-aarch64-apple-darwin.tar.gz"
+  sha256 "323570cbbf656bbdc925f8e4b657fdbdaef12aded88af041f19982d25a22d053"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -18,6 +18,7 @@ class Euphoria < Formula
   def install
     bin.install "bin/euphoria"
     lib.install Dir["lib/*.dylib"]
+    generate_completions_from_executable(bin/"euphoria", "completions", shells: [:bash, :zsh, :fish])
   end
 
   test do
